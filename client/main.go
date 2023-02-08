@@ -39,6 +39,6 @@ func main() {
 	defer connection.Close()
 
 	client := pb.NewDataStudentClient(connection)
-	getDataStudentByEmail(client, "anhar.fahrudin@bitmaker-automation.com")
-	getDataStudentByEmail(client, "babayo@gmail.com")
+	getDataStudentByEmail(client, "youremail@gmail.com")
+	getDataStudentByEmail(client, "hername@gmail.com")
 }
